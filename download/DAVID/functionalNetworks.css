@@ -1,0 +1,292 @@
+
+body {
+
+   margin:0;
+   padding:0;
+   font-family: 'Trebuchet MS',Arial, Helvetica, sans-serif, Georgia, Times, Times New Roman;
+   font-size: 0.8em;
+   text-align:left;
+   color:#29303B;
+   line-height:1.3em;
+   background: white;
+   margin-left: 5%; 
+   margin-rigth: 5%; 
+   width: 80%;
+   max-width: 800px;
+}
+   float:left;
+}
+        			
+/******* Text ***********/
+
+h1
+{
+	text-align:center;
+}
+
+h2
+{
+	
+}
+.InfoLabel
+{
+	font-weight:bold;
+}
+					
+/******* Image ***********/
+img {
+     border:1;
+}
+a.network img{
+	 	width: 100%;
+    max-width: 600px;
+    min-width: 100px;
+    
+}
+
+a.intersectionNw img {
+    width: 100%;
+    max-width: 200px;
+    min-width: 50px;
+}
+a.distance img{
+    width: 100%;
+    min-width:200px;
+    max-width:600px;
+}		
+a.GoTreesGlobal img{
+    width: 33%;
+    min-width:200px;
+    max-width:600px;
+}    
+
+
+
+/******* Link ***********/
+a:link, a:visited {
+ text-decoration:none;
+ color: #365286;
+}
+
+a:hover, a:active {
+ color: #90bfff;
+}
+/******* Tables ***********/
+table{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-spacing:0;
+	border:0px solid;
+}
+tr{
+}
+td.Terms{
+	padding: 0;
+	margin: 0;
+	border: 0px solid;
+}
+td.termsRow{
+	float:top;
+	border:0px solid;
+	text-align:left;
+	width: 85%;
+}
+td.annotRow{
+	float:top;
+	border:0px solid;
+	text-align:right;
+	width: 200px;
+}
+td.mgHeader{
+	border:0;
+	border:5px solid;
+}
+td.mgAttr{
+    padding: 0% 1% 0% 1%; 
+    text-align: right;
+    width: 5%;
+}
+td.mgAttr b{
+    float:left;
+}
+					
+a.goLink {
+	float:right;
+}
+.matrix
+{
+		text-align: center;
+		font-weight: normal;
+		padding: 5px;
+		border-collapse: collapse;
+		border: 0px solid white;
+}
+.transitivity{
+    width: 30%;
+    text-color:red;
+}
+					
+/******* Genes tooltip ***********/
+.tooltip{
+ 		display: inline;
+		position: relative;
+}
+
+.tooltip:hover:after{
+		background: #333;
+		background: rgba(0,0,0,.8);
+		border-radius: 5px;
+		bottom: 26px;
+		color: #fff;
+		content: attr(title);
+		right: -15px;
+		padding: 5px 15px;
+		position: absolute;
+		z-index: 98;
+		width: 90%;
+		max-width: 500px;
+		min-width: 200px;
+}
+
+.tooltip:hover:before{
+		border: solid;
+		border-color: #333 transparent;
+		border-width: 6px 6px 0 6px;
+		bottom: 20px;
+		content: "";
+		left: 50%;
+		position: absolute;
+		z-index: 99;
+}
+					
+/************* Networks dialog *************/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	/*bottom: 0;
+	left: 0;  Size*/
+	z-index: 999;
+	opacity:0;
+	pointer-events: none; /* Not clickable until the “:target” pseudo class is fired.*/
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 100%;
+  max-width: 805px;
+	position: relative;
+	float: right;
+	padding: 5% 2% 2% 0%;
+}
+.close {
+	background: #29303B;
+	line-height: 25px;
+	color: #FFFFFF;
+	position: absolute;
+	right: 2%;
+	top: 5%;
+	text-align: center;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+.close:hover { background: #707070; }
+
+a.close  {
+		color: #FFFFFF
+}
+/************  GO tree thumbnail ****************/
+
+#thumbnail a {
+  text-align:center;
+} 
+#thumbnail a img {
+  display:none;
+} 
+
+#thumbnail a:hover img {
+	display:inline;
+  position: absolute;
+  height: 50%;
+  max-width: 80%;
+  z-index: 1000;
+} 
+
+
+
+/************  Hide areas ****************/
+
+.switcher:hover{
+    color: #90bfff;
+    cursor: pointer;
+}
+.switcher{
+    color:#365286;
+    float:right;
+}
+
+#switchQueryInfo:before {
+    content: "[More]";
+}
+#switchQueryInfo:active.switchQueryInfo:before {
+    content: "[Hide]";
+}
+#switchQueryInfo:active + span#contentQueryInfo {
+      display:block;
+}
+#contentQueryInfo {
+    display:none;
+}
+
+#switchTerms:before {
+    content: "[Hide]";
+}
+#switchTerms:active.switchTerms:before {
+    content: "[Show]"; 
+}
+#switchTerms:active + span#contentTerms {
+    display:none;
+}
+#contentTerms {
+  display:block;
+}
+
+#switchNwAnalysis:before {
+    content: "[Hide]";
+}
+#switchNwAnalysis:active.switchNwAnalysis:before {
+    content: "[Show]";
+}
+#switchNwAnalysis:active + span#contentNwAnalysis {
+    display:none;
+}
+#contentNwAnalysis {
+  display:block;
+}
+
+#switchDistances:before {
+    content: "[Hide]";
+}
+#switchDistances:active.switchDistances:before {
+    content: "[Show]";
+}
+#switchDistances:active + span#contentDistances {
+    display:none;
+}
+#contentDistances {
+  display:block;
+}
+
+

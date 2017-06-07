@@ -1,0 +1,116 @@
+Cluster 1	Score: 1.3			8 genes: ANKK1, BDNF, DDC, DRD2, KCNJ3, PDYN, PDZD8, SLC18A2
+Alcoholism
+Amine transport
+Amphetamine addiction
+Anatomical structure development *
+Anterograde trans-synaptic signaling
+Axon
+Axon part
+Axon terminus
+Binding
+Biological regulation
+Biosynthetic process
+Cell
+Cell body
+Cell-cell signaling
+Cell communication
+Cell part
+Cell periphery
+Cell projection
+Cell projection part
+Cellular localization
+Cellular metabolic process
+Cellular process
+Cellular response to stimulus *
+Chemical synaptic transmission
+Cocaine addiction
+Cytoplasm
+Cytoplasmic, membrane-bounded vesicle
+Cytoplasmic part
+Cytoplasmic vesicle
+Developmental process *
+Dopaminergic synapse
+Endomembrane system
+Establishment of localization
+Establishment of localization in cell
+Exocytic vesicle
+Extracellular region
+Integral component of membrane
+Integral component of plasma membrane
+Intracellular *
+Intracellular membrane-bounded organelle
+Intracellular organelle
+Intracellular part
+Intracellular vesicle
+Intrinsic component of membrane
+Intrinsic component of plasma membrane
+Localization
+Membrane
+Membrane-bounded organelle
+Membrane-bounded vesicle
+Membrane part
+Metabolic process
+Movement of cell or subcellular component
+Multicellular organismal process
+Multicellular organism development
+Negative regulation of biological process
+Negative regulation of cellular process
+Neuronal cell body
+Neuron part
+Neuron projection
+Neuron projection terminus
+Neurotransmitter transport
+Nitrogen compound transport
+Organelle
+Organic substance metabolic process
+Organic substance transport
+Plasma membrane
+Plasma membrane part
+Presynapse
+Primary metabolic process
+Protein binding
+Receptor binding
+Regulation of biological process
+Regulation of biological quality
+Regulation of cellular process
+Regulation of localization
+Regulation of multicellular organismal process
+Response to chemical
+Response to endogenous stimulus
+Response to nitrogen compound
+Response to organic substance
+Response to organonitrogen compound
+Response to stimulus
+Response to toxic substance
+Secretory vesicle
+Serotonergic synapse
+Signaling
+Single-multicellular organism process
+Single-organism cellular process
+Single-organism developmental process
+Single-organism localization
+Single-organism process
+Single organism signaling
+Single-organism transport
+Somatodendritic compartment
+Synapse
+Synapse part
+Synaptic signaling
+Synaptic vesicle
+System process
+Transmembrane transport
+Transport
+Transport vesicle
+Trans-synaptic signaling
+Vesicle
+Cluster 2	Score: 0.44			6 genes: BDNF, DDC, DRD2, PDYN, PDZD8, SLC18A2
+Anatomical structure development *
+Anatomical structure morphogenesis
+Cellular component organization
+Cellular component organization or biogenesis
+Cellular response to stimulus *
+Developmental process *
+Intracellular *
+Regulation of cellular component organization
+Regulation of developmental process
+Signal transduction
