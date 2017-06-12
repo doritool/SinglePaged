@@ -1,12 +1,12 @@
 <html>
 <head>
   <title>VEP summary</title>
-  <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">
     google.load('visualization', '1', {packages: ['corechart','table']});
   </script>
   <script type="text/javascript">
-    
+
     function init() {
       // charts
       var var_class_pie = drawPie('var_class_pie', 'Variant classes', google.visualization.arrayToDataTable([['Variant class','Count'],['insertion',1],['SNV',19]]), null);
@@ -63,8 +63,8 @@ var chr_20_area = drawArea('chr_20_area', 'Distribution of variants on chromosom
 var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualization.arrayToDataTable([['Position in protein (percentile)','Count'],['00-10%',0],['10-20%',4],['20-30%',17],['30-40%',3],['40-50%',3],['50-60%',3],['60-70%',0],['70-80%',0],['80-90%',0],['90-100%',1]]), {hAxis: {title: "Position in protein (percentile)", textStyle: {fontSize: 10}}, legend: {position: "none"}});
 
     }
-    
-    function drawPie(id, title, data, options) {    
+
+    function drawPie(id, title, data, options) {
       var pie = new google.visualization.PieChart(document.getElementById(id));
       pie.draw(data, options);
       return pie;
@@ -91,38 +91,38 @@ var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualiza
     }
     google.setOnLoadCallback(init);
   </script>
-  
-  
+
+
   <style type="text/css">
     body {
       font-family: arial, sans-serif;
       margin: 0px;
       padding: 0px;
     }
-    
+
     a {color: #36b;}
     a.visited {color: #006;}
-    
+
     .stats_table {
       margin: 5px;
     }
-    
+
     tr:nth-child(odd) {
       background-color: rgb(238, 238, 238);
     }
-    
+
     td {
       padding: 5px;
     }
-    
+
     td:nth-child(odd) {
       font-weight: bold;
     }
-    
+
     h3 {
       color: #666;
     }
-    
+
     .masthead {
       background-color: rgb(51, 51, 102);
       color: rgb(204, 221, 255);
@@ -130,11 +130,11 @@ var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualiza
       width: 100%;
       padding: 0px;
     }
-    
+
     .main {
       padding: 10px;
     }
-    
+
     .gradient {
       background: #333366; /* Old browsers */
       background: -moz-linear-gradient(left,  #333366 0%, #ffffff 100%); /* FF3.6+ */
@@ -144,18 +144,18 @@ var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualiza
       background: -ms-linear-gradient(left,  #333366 0%,#ffffff 100%); /* IE10+ */
       background: linear-gradient(to right,  #333366 0%,#ffffff 100%); /* W3C */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333366', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
-      
+
       padding: 0px;
       height: 80px;
       width: 500px;
       float: right;
       display: inline;
     }
-    
+
     .main_content {
       margin-left: 300px;
     }
-    
+
     .sidemenu {
       width: 260px;
       position: fixed;
@@ -163,14 +163,14 @@ var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualiza
       border-width: 2px;
       border-color: rgb(51, 51, 102);
     }
-    
+
     .sidemenu_head {
       width: 250px;
       background-color: rgb(51, 51, 102);
       color: rgb(204, 221, 255);
       padding: 5px;
     }
-    
+
     .sidemenu_body {
       width: 250px;
       padding: 5px;
@@ -180,11 +180,11 @@ var protein_bar = drawBar('protein_bar', 'Position in protein', google.visualiza
 <body>
 <div id="masthead" class="masthead">
   <div style="float: left; display: inline; padding: 10px; height: 80px;">
-    <a href="http://www.ensembl.org/"><img src="http://static.ensembl.org/i/e-ensembl.png"></a>
+    <a href="https://www.ensembl.org/"><img src="https://static.ensembl.org/i/e-ensembl.png"></a>
   </div>
-  
+
   <div style="float: right; display: inline; height: 80px; background: white; padding: 10px;">
-    <a href="http://www.ensembl.org/info/docs/variation/vep/vep_script.html"><img src="http://www.ensembl.org/img/vep_logo.png"></a>
+    <a href="https://www.ensembl.org/info/docs/variation/vep/vep_script.html"><img src="https://www.ensembl.org/img/vep_logo.png"></a>
   </div>
   <div class="gradient">
   </div>
