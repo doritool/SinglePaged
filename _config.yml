@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Doritool"
+title:       "Doritool - Website"
 keywords:    "Doritool, bioinformatic"
 description: "Doritool: A bioinformatic pipeline"
 source_link_doritool: "https://github.com/doritool/doritool"
